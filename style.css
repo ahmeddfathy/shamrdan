@@ -422,11 +422,16 @@ color: white !important;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   padding: 2rem;
-  /* إزالة جميع التأثيرات والأنيميشن */
-  display: block;
-  opacity: 1;
-  transform: none;
-  transition: transform 0.3s ease;
+  /* إزالة الأوباسيتي والترانسفورم */
+  opacity: 1 !important;
+  transform: none !important;
+  /* إضافة تأثير بسيط عند التحويم فقط */
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: translateY(-5px) !important;
+  border-color: var(--primary-color);
 }
 
 .skill-card i {
@@ -505,20 +510,20 @@ color: white !important;
   padding: 2rem 0;
 }
 
+/* تبسيط تأثير التحويم */
 .project-card {
   background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  transition: transform 0.3s ease;
-  /* إزالة الأنيميشن والأوباسيتي */
-  opacity: 1;
-  transform: none;
+  /* إزالة الأوباسيتي والترانسفورم */
+  opacity: 1 !important;
+  transform: none !important;
+  transition: transform 0.3s ease, border-color 0.3s ease;
 }
 
-/* تبسيط تأثير التحويم */
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) !important;
   border-color: var(--primary-color);
 }
 
@@ -1808,10 +1813,13 @@ color: white !important;
   border-radius: 20px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   transition: transform 0.3s ease;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .stat-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) !important;
+  border-color: var(--primary-color);
 }
 
 .stat-number {
@@ -2385,6 +2393,8 @@ color: white !important;
   padding: 2rem;
   transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   overflow: hidden;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .interest-card::before {
@@ -2516,6 +2526,8 @@ color: white !important;
   text-align: center;
   overflow: hidden;
   transition: all 0.4s ease;
+  opacity: 1 !important;
+  transform: none !important;
 }
 
 .personal-quote::before {
