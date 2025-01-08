@@ -1,0 +1,660 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>عبدالرحمن سيد - مطور ويب شامل</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- القائمة العلوية -->
+    <nav>
+      <div class="container">
+        <div class="logo">عبدالرحمن سيد</div>
+        <ul class="nav-links">
+          <li><a href="#home">الرئيسية</a></li>
+          <li><a href="#about">عني</a></li>
+          <li><a href="#skills">مهاراتي</a></li>
+          <li><a href="#projects">مشاريعي</a></li>
+          <li><a href="#contact">تواصل معي</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- القسم الرئيسي -->
+    <section id="home" class="hero wave-bg">
+      <div class="container">
+        <div class="hero-content">
+          <h2 class="main-title">مرحبا، أنا  عبدالرحمن سيد</h2>
+          <h2 class="gradient-text">مطور ويب شامل</h2>
+          <div class="hero-description">
+            <p>مطور ويب شامل متخصص في تطوير تطبيقات الويب المتكاملة</p>
+            <p>أقوم بتحويل الأفكار إلى تطبيقات رقمية مبتكرة</p>
+          </div>
+          <div class="cta-group">
+            <a href="#contact" class="cta-button primary">
+              <i class="fas fa-paper-plane"></i>
+              تواصل معي
+            </a>
+            <a href="#projects" class="cta-button secondary">
+              <i class="fas fa-code"></i>
+              مشاريعي
+            </a>
+          </div>
+        </div>
+        <div class="hero-image floating">
+          <div class="code-window">
+            <div class="window-header">
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+            <pre><code>class Developer {
+    constructor() {
+        this.name = "عبدالرحمن سيد";
+        this.role = "مطور ويب شامل";
+        this.skills = [
+            "HTML", "CSS",
+            "JavaScript",
+            "React", "Node.js"
+        ];
+    }
+
+    sayHi() {
+        return "أهلاً بك! 👋";
+    }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator"></div>
+    </section>
+
+    <!-- قسم عني -->
+    <section id="about" class="about wave-bg">
+      <div class="container">
+        <h2 class="section-title">نبذة عني</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <div class="profile-header">
+              <div class="profile-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop" alt="عبدالرحمن سيد" />
+                <div class="profile-badge">متاح للعمل</div>
+              </div>
+              <div class="profile-intro">
+                <h3 class="gradient-text">مرحبا! 👋</h3>
+                <p class="main-intro">
+                  مطور ويب شامل عمري 18 عاماً، شغوف بتحويل الأفكار الإبداعية إلى
+                  تطبيقات رقمية مبتكرة. أجمع بين مهارات تطوير الواجهات الأمامية
+                  والخلفية لإنشاء تجارب مستخدم استثنائية.
+                </p>
+              </div>
+            </div>
+
+            <div class="about-stats">
+              <div class="stat-card">
+                <div class="stat-number">+20</div>
+                <div class="stat-label">مشروع مكتمل</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">+500</div>
+                <div class="stat-label">ساعة برمجة</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">+10</div>
+                <div class="stat-label">عميل سعيد</div>
+              </div>
+              <div class="stat-card">
+                <div class="stat-number">5</div>
+                <div class="stat-label">شهادات معتمدة</div>
+              </div>
+            </div>
+
+            <div class="about-details">
+              <div class="about-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>خبراتي</h3>
+                <ul>
+                  <li>
+                    <i class="fas fa-check-circle"></i> تطوير واجهات المستخدم
+                    التفاعلية
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> برمجة خلفيات التطبيقات
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> تصميم وإدارة قواعد
+                    البيانات
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> تحسين أداء المواقع
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i> تطوير تطبيقات الموبايل
+                  </li>
+                  <li>
+                    <i class="fas fa-check-circle"></i>دارة المشاريع البرمجية
+                  </li>
+                </ul>
+              </div>
+
+              <div class="about-card">
+                <i class="fas fa-graduation-cap"></i>
+                <h3>تعليمي</h3>
+                <div class="education-timeline">
+                  <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                      <h4>شهادة React.js المتقدمة</h4>
+                      <p>Udemy - مع المدرب Maximilian Schwarzmüller</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                      <h4>شهادة MERN Stack</h4>
+                      <p>Zero To Mastery Academy</p>
+                    </div>
+                  </div>
+                  <div class="timeline-item">
+                    <div class="timeline-date">2022</div>
+                    <div class="timeline-content">
+                      <h4>دورة تطوير الويب الشاملة</h4>
+                      <p>Coursera - جامعة ميشيغان</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="interests-section">
+              <h3>اهتماماتي ومجالات تخصصي</h3>
+              <div class="interests-grid">
+                <div class="interest-card">
+                  <div class="interest-icon">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <h4>تطوير الويب</h4>
+                  <p>تطوير تطبيقات ويب حديثة وتفاعلية باستخدام أحدث التقنيات</p>
+                  <div class="interest-tags">
+                    <span>React</span>
+                    <span>Node.js</span>
+                    <span>Next.js</span>
+                  </div>
+                </div>
+
+                <div class="interest-card">
+                  <div class="interest-icon">
+                    <i class="fas fa-mobile-alt"></i>
+                  </div>
+                  <h4>تطوير الموبايل</h4>
+                  <p>إنشاء تطبيقات موبايل متقدمة لنظامي Android و iOS</p>
+                  <div class="interest-tags">
+                    <span>React Native</span>
+                    <span>Flutter</span>
+                    <span>Firebase</span>
+                  </div>
+                </div>
+
+                <div class="interest-card">
+                  <div class="interest-icon">
+                    <i class="fas fa-brain"></i>
+                  </div>
+                  <h4>الذكاء الاصطناعي</h4>
+                  <p>دمج تقنيات الذكاء الاصطناعي في تطبيقات الويب</p>
+                  <div class="interest-tags">
+                    <span>Machine Learning</span>
+                    <span>ChatGPT API</span>
+                    <span>TensorFlow</span>
+                  </div>
+                </div>
+
+                <div class="interest-card">
+                  <div class="interest-icon">
+                    <i class="fas fa-paint-brush"></i>
+                  </div>
+                  <h4>تصميم UX/UI</h4>
+                  <p>تصميم واجهات مستخدم جذابة وسهلة الاستخدام</p>
+                  <div class="interest-tags">
+                    <span>Figma</span>
+                    <span>Adobe XD</span>
+                    <span>Prototyping</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="personal-quote">
+              <i class="fas fa-quote-left"></i>
+              <blockquote>
+                "أؤمن بأن التكنولوجيا يمكن أن تغير العالم للأفضل، وأطمح أن أكون
+                جزءاً من هذا التغيير من خلال تطوير حلول مبتكرة تساععد الناس وتحسن
+                حياتهم."
+              </blockquote>
+              <div class="quote-author">
+                <img
+                  src="https://i.imgur.com/YourSignature.png"
+                  alt="توقيع"
+                  class="signature"
+                />
+                <div class="author-name">عبدالرحمن سيد</div>
+                <div class="author-title">مطور ويب شامل</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم المهارات -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2 class="section-title">مهاراتي التقنية</h2>
+
+        <div class="skills-category">
+          <h3>تطوير الواجهات الأمامية</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fab fa-html5"></i>
+              <h4>HTML5</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>هيكلة الصفحات</li>
+                <li>SEO الأساسي</li>
+                <li>تصميم متجاوب</li>
+                <li>أفضل الممارسات</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-css3-alt"></i>
+              <h4>CSS3</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>Flexbox & Grid</li>
+                <li>Animations</li>
+                <li>Responsive Design</li>
+                <li>SASS/SCSS</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-js"></i>
+              <h4>JavaScript</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>ES6+</li>
+                <li>DOM Manipulation</li>
+                <li>Async/Await</li>
+                <li>APIs</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>أطر العمل والمكتبات</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fab fa-react"></i>
+              <h4>React.js</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>Hooks</li>
+                <li>Context API</li>
+                <li>Redux</li>
+                <li>React Router</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-bootstrap"></i>
+              <h4>Bootstrap</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>Grid System</li>
+                <li>Components</li>
+                <li>Customization</li>
+                <li>Responsive Design</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-category">
+          <h3>تطوير الخلفيات</h3>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fab fa-node-js"></i>
+              <h4>Node.js</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>Express.js</li>
+                <li>REST APIs</li>
+                <li>MongoDB</li>
+                <li>Authentication</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-php"></i>
+              <h4>PHP</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>OOP</li>
+                <li>MVC Pattern</li>
+                <li>MySQL</li>
+                <li>APIs</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <i class="fab fa-laravel"></i>
+              <h4>Laravel</h4>
+              <div class="skill-level">متقدم</div>
+              <ul class="skill-details">
+                <li>Eloquent ORM</li>
+                <li>Blade Templates</li>
+                <li>Authentication</li>
+                <li>API Development</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2 class="section-title">مشاريعي</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800"
+              alt="منصة تعليمية"
+            />
+            <div class="project-content">
+              <h3>منصة تعليم الكتروني</h3>
+              <p>
+                منصة تعليمي متكاملة تدعم التعلم عن بعد مع ميزات مثل البث
+                المباشر، والاختبارات التفاعلية، ونظام إدارة المحتوى التعليمي.
+                المنصة تدعم العربية والإنجليزية.
+              </p>
+              <div class="project-features">
+                <span>دروس تفاعلية</span>
+                <span>بث مباشر</span>
+                <span>نظام اختبارات</span>
+                <span>لوحة تحكم</span>
+              </div>
+              <div class="project-tech">
+                <span>Next.js</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                <span>WebRTC</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link primary"
+                  ><i class="fas fa-external-link-alt"></i> معاينة مباشرة</a
+                >
+                <a href="#" class="project-link secondary"
+                  ><i class="fab fa-github"></i> شفرة المصدر</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800"
+              alt="نظام إدارة المشاريع"
+            />
+            <div class="project-content">
+              <h3>نظام إدارة المشاريع</h3>
+              <p>
+                تطبيق شامل لدارة المشاريع والمهام مع ميزات متقدمة مثل تتبع
+                الوقت، إدارة الموارد، والتقارير التحليلية. يدعم العمل الجماعي
+                والتواصل المباشر.
+              </p>
+              <div class="project-features">
+                <span>إدارة المهام</span>
+                <span>تتبع الوقت</span>
+                <span>تقارير تحليلية</span>
+                <span>تعاون فريقي</span>
+              </div>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Express</span>
+                <span>PostgreSQL</span>
+                <span>Socket.io</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link primary"
+                  ><i class="fas fa-external-link-alt"></i> معاينة مباشرة</a
+                >
+                <a href="#" class="project-link secondary"
+                  ><i class="fab fa-github"></i> شفرة المصدر</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800"
+              alt="متجر إلكتروني"
+            />
+            <div class="project-content">
+              <h3>متجر إلكتروني متكامل</h3>
+              <p>
+                منصة تجارة إلكترونية متكاملة مع نظام دفع آمن، إدارة المخزون،
+                وتتبع الطلبات. يدعم التطبيق البيع متعدد البائعين ونظام العمولات.
+              </p>
+              <div class="project-features">
+                <span>دفع إلكتروني</span>
+                <span>إدارة المخزون</span>
+                <span>تتبع الطلبات</span>
+                <span>تقارير المبيعات</span>
+              </div>
+              <div class="project-tech">
+                <span>Vue.js</span>
+                <span>Laravel</span>
+                <span>MySQL</span>
+                <span>Stripe</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="project-link primary"
+                  ><i class="fas fa-external-link-alt"></i> معاينة مباشرة</a
+                >
+                <a href="#" class="project-link secondary"
+                  ><i class="fab fa-github"></i> شفرة المصدر</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact" class="contact wave-bg">
+      <div class="container">
+        <h2 class="section-title">تواصل معي</h2>
+        <div class="contact-content">
+          <div class="contact-text">
+            <h3>دعنا نعمل معاً!</h3>
+            <p>
+              أنا متاح دائماً للمشاريع المستقلة والفرص الوظيفية. يمكنك التواصل
+              معي من خلال أي من الوسائل التالية:
+            </p>
+          </div>
+
+          <div class="contact-methods">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <h4>البريد الإلكتروني</h4>
+              <p>أرسل لي رساله مباشرة</p>
+              <a href="mailto:ahmed.fathy@example.com" class="contact-link"
+                >ahmed.fathy@example.com</a
+              >
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <h4>LinkedIn</h4>
+              <p>لنتواصل مهنياً</p>
+              <a href="https://linkedin.com/in/ahmed-fathy" class="contact-link"
+                >ahmed-fathy</a
+              >
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <h4>GitHub</h4>
+              <p>تصفح مشاريعي ومساهماتي</p>
+              <a href="https://github.com/ahmed-fathy" class="contact-link"
+                >ahmed-fathy</a
+              >
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fab fa-twitter"></i>
+              </div>
+              <h4>Twitter</h4>
+              <p>تابع آخر أخباري</p>
+              <a href="https://twitter.com/ahmed_fathy" class="contact-link"
+                >@ahmed_fathy</a
+              >
+            </div>
+          </div>
+
+          <div class="availability">
+            <div class="availability-status">
+              <span class="status-dot"></span>
+              <p>متاح حالياً للعمل على مشاريع جديدة</p>
+            </div>
+            <div class="work-hours">
+              <i class="far fa-clock"></i>
+              <p>ساعات العمل: 9 صباحاً - 5 مساءً (توقيت القاهرة)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>عبدالرحمن سيد</h3>
+            <p>مطور ويب شامل متخصص في بناء تطبيقات ويب حديثة وتفاعلية</p>
+            <div class="footer-social">
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+
+          <div class="footer-section">
+            <h3>روابط سريعة</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="#home"><i class="fas fa-chevron-left"></i> الرئيسية</a>
+              </li>
+              <li>
+                <a href="#about"><i class="fas fa-chevron-left"></i> عني</a>
+              </li>
+              <li>
+                <a href="#skills"
+                  ><i class="fas fa-chevron-left"></i> مهاراتي</a
+                >
+              </li>
+              <li>
+                <a href="#projects"
+                  ><i class="fas fa-chevron-left"></i> مشاريعي</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-section">
+            <h3>تواصل معي</h3>
+            <ul class="footer-links">
+              <li>
+                <a href="mailto:contact@example.com"
+                  ><i class="fas fa-envelope"></i> contact@example.com</a
+                >
+              </li>
+              <li>
+                <a href="tel:+123456789"
+                  ><i class="fas fa-phone"></i> +123 456 789</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fas fa-map-marker-alt"></i> القاهرة، مصر</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>
+            جميع الحقوق محفوظة &copy; 2024 أعبدالرحمن سيد | تم التطوير بواسطة
+            <span class="gradient-text">عبدالرحمن سيد</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <div id="particles-js"></div>
+    <div id="three-background"></div>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.13/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <!-- إضافة عناصر Lottie -->
+    <div class="background-animations">
+      <lottie-player
+        src="https://assets2.lottiefiles.com/packages/lf20_UJNc2t.json"
+        background="transparent"
+        speed="1"
+        class="lottie-animation"
+        loop
+        autoplay
+      >
+      </lottie-player>
+    </div>
+
+    <!-- إضافة تأثير الجزيئات المتقدم -->
+    <div id="gradient-canvas" class="gradient-bg"></div>
+  </body>
+</html>
